@@ -16,5 +16,7 @@ python setup.py bdist_wheel
 5. cd dist folder and launch : 
 pip install today_folder-1.0.0-py3-none-any.whl
 
-6. cd.. then cd notebooks and launch the script that launches the main.ipynb :
-python process.py 
+6. laucnh project with :
+* Run_project (this will run the script specified in entry points of setup.py)
+* Or Call your modules like this :
+from save_date.save_folder import function2
